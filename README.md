@@ -2,11 +2,11 @@
 
 This is a simple balanced bucket code challange I did for a job interview. 
 
-My program worked with the test case I used to develop it. The unit tests I added with different test cases exposed a bug (I had forgotten to increment a count variable). It is to me another demonstration of the value of unit tests.
+My program worked with the test case I used to develop it. The unit tests I added with different test cases exposed a bug (I had forgotten to increment a count variable). It is to me another demonstration of the value of unit tests to expose bugs before code is deployed to production.
 
 
 Description: 
-A bracket is considered to be any one of the following characters: (, ), {, }, [, or ].
+A bracket is considered to be any one of the following characters: (, ), {, }, [,].
 
 Two brackets are considered to be a matched pair if the an opening bracket (i.e., (, [, or {) occurs to the left of a closing bracket (i.e., ), ], or }) of the exact same type. There are three types of matched pairs of brackets: [], {}, and ().
 
